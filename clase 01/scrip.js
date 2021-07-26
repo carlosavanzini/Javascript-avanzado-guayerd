@@ -1,9 +1,9 @@
 // Ejercicios ECMAScript 6
 
 // Crear una función flecha que reciba un número y devuelva el doble del mismo.
-
+    // let num=parseInt(prompt("Escriba un número: "))
     // let numero = a => a *2
-    // alert(numero(5));
+    // alert(numero(num));
 
 // Crear una función flecha que reciba dos números y muestre la suma de ellos.
 
