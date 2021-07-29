@@ -6,13 +6,16 @@
     // alert(numero(num));
 
 // Crear una función flecha que reciba dos números y muestre la suma de ellos.
+        // let num1= parseInt(prompt("Escriba un número: "))
+        // let num2 =parseInt(prompt("Escriba otro número: "))
+        // let numero = (a,b) => a + b
+        // alert(numero(num1,num2));
 
-    // let numero = (a,b) => a + b
-    // alert(numero(5,10));
+
 // Crear una función flecha que valide si un número es mayor a otro. Luego mostrar el resultado por consola.
     // let num1=parseInt(prompt("Ingrese un numero: "));
     // let num2=parseInt(prompt("Ingrese otro numero: "));
-    // let numero = (num1,num2) => num1 > num2? `El número mayor ${num1}`: `El numero mayor es ${num2}`
+    // let numero = (a,b) => a > b? `El número mayor ${a}`: `El numero mayor es ${b}`
     // alert(numero(num1,num2));
 
 // Mostrar por pantalla uno por uno reccoriéndolo, el siguiente array:
@@ -23,11 +26,11 @@
     // frutas.forEach(fruta);
 
 // Mostrar por pantalla las raíces cuadradas de los números del siguiente array:
-    // let numeros = [16,29,120,64,81]
+        // let numeros = [16,29,120,64,81]
 
-    // let raices = numeros.map(Math.sqrt);
+        // let raices = numeros.map(Math.sqrt);
 
-    // alert(raices)
+        // alert(raices)
 
 // Solicitar al usuario su nombre y su signo del zodíaco y devolver un mensaje que devuelva esos mismos datos. Ejemplo: “Su nombre es Fermin y su signo es Escorpio”.
 
@@ -42,12 +45,12 @@
     //  alert(mayores);
 
 // Generar en base a un array, un nuevo array que tenga todos sus números consecutivos, y otro con sus números precedentes. (Ejemplo: Si el número es 8 : En el array de consecutivos irá 9 , y en el array de precedentes irá 7). Al final mostrar por pantalla los tres array formados.
-    //  let numeros = [15,28,32,40,11,-3,0,100]
+     let numeros = [15,28,32,40,11,-3,0,100]
 
-    //  let consecutivos = numeros.map(numero => numero + 1);
-    //  let anteriores= numeros.map(numero => numero - 1);
-    //  console.log(`Los numeros consecutivos de ${numeros} son ${consecutivos}`);
-    //  console.log(`Los numeros anteriores de ${numeros} son ${anteriores}`);
+     let consecutivos = numeros.map(numero => numero + 1);
+     let anteriores= numeros.map(numero => numero - 1);
+     console.log(`Los numeros consecutivos de ${numeros} son ${consecutivos}`);
+     console.log(`Los numeros anteriores de ${numeros} son ${anteriores}`);
 
 // Crear una función flecha que reciba un parámetro que indique el momento del día: “Mañana, tarde, noche” y en base a eso de un saludo personalizado. Ejemplo: “Buenos días, buenas tardes, buenas noches”.
 
