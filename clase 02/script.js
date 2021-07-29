@@ -197,56 +197,58 @@ document.querySelector(".chau").innerHTML = "<a href=''>Hola</a>" // Cambia la n
 // Jueves: Hamburguesas con papas fritas
 // Viernes: Pastel de papa
 
-        // let dia=prompt("Que dia de la semana es hoy?");
+        let dia=prompt("Que dia de la semana es hoy?");
                 
-        // let semana= (a) =>{
+        let semana= (a) =>{
                             
-        //                switch (a) {
-        //                        case "lunes":
-        //                                document.querySelector("h3").innerText = 'El menu de hoy es Milanesas con puré.'
-        //                                document.querySelector("img").src="milanesaconpure.jpg"   
-        //                                break;
-        //                        case "martes":
-        //                                document.querySelector("h3").innerText = 'El menu de hoy es Fideos con salsa'
-        //                                document.querySelector("img").src="fideosconsalsa.jpg"   
-        //                                break;
-        //                        case "miercoles":
-        //                                document.querySelector("h3").innerText = 'El menu de hoy es Pizza'
-        //                                document.querySelector("img").src="pizza.jpeg"   
-        //                                break;
-        //                        case "jueves":
-        //                                document.querySelector("h3").innerText = 'El menu de hoy es Hamburguesas con papas fritas'
-        //                                document.querySelector("img").src="hamburguesasconpapasfritas.jpg"   
-        //                                break;
-        //                        case "viernes":
-        //                                document.querySelector("h3").innerText = 'El menu de hoy es Pastel de papa'
-        //                                document.querySelector("img").src="pasteldepapas.jpg"   
-        //                                        break;
-        //                        default:
-        //                                alert("opcion de dia no valida")
-        //                                break;                      
-        //                                }
-        //                     } 
+                       switch (a) {
+                               case "lunes":
+                                       document.querySelector("h3").innerText = 'El menu de hoy es Milanesas con puré.'
+                                       document.querySelector("img").src="milanesaconpure.jpg"   
+                                       break;
+                               case "martes":
+                                       document.querySelector("h3").innerText = 'El menu de hoy es Fideos con salsa'
+                                       document.querySelector("img").src="fideosconsalsa.jpg"   
+                                       break;
+                               case "miercoles":
+                                       document.querySelector("h3").innerText = 'El menu de hoy es Pizza'
+                                       document.querySelector("img").src="pizza.jpeg"   
+                                       break;
+                               case "jueves":
+                                       document.querySelector("h3").innerText = 'El menu de hoy es Hamburguesas con papas fritas'
+                                       document.querySelector("img").src="hamburguesasconpapasfritas.jpg"   
+                                       break;
+                               case "viernes":
+                                       document.querySelector("h3").innerText = 'El menu de hoy es Pastel de papa'
+                                       document.querySelector("img").src="pasteldepapas.jpg"   
+                                               break;
+                               default:
+                                       alert("opcion de dia no valida")
+                                       break;                      
+                                       }
+                            } 
         
 
-        //        semana(dia)
+               semana(dia)
 
   
-// // b) Ahora además nos piden que coloquemos debajo del menú del día los precios a los platos que se piden a la carta. Realizarlo desde el javascript.
+//  b) Ahora además nos piden que coloquemos debajo del menú del día los precios a los platos que se piden a la carta. Realizarlo desde el javascript.
 
-// // Milanesas con puré ($300)
-// // Fideos con salsa ($250)
-// // Pizza ($400)
-// // Hamburguesas con papas fritas ($430)
-// // Pastel de papa  ($280)
+// Milanesas con puré ($300)
+// Fideos con salsa ($250)
+// Pizza ($400)
+// Hamburguesas con papas fritas ($430)
+// Pastel de papa  ($280)
+
+    document.querySelector("h4").innerText = 'Menu a la carta'
+    document.querySelector("#menu1").innerText='Milanesas con puré: $300'
+    document.querySelector("#menu2").innerText='Fideos con salsa $250'
+    document.querySelector("#menu3").innerText='Pizza $400'
+    document.querySelector("#menu4").innerText='Hamburguesas con papas fritas $430'
+    document.querySelector("#menu5").innerText='Pastel de papa  $280'
 
 
-    // document.querySelector("h4").innerText = 'Menu a la carta'
-    // document.querySelector("#menu1").innerText='Milanesas con puré: $300'
-    // document.querySelector("#menu2").innerText='Fideos con salsa ($250)'
-    // document.querySelector("#menu3").innerText='Pizza ($400)'
-    // document.querySelector("#menu4").innerText='Hamburguesas con papas fritas ($430)'
-    // document.querySelector("#menu5").innerText='Pastel de papa  ($280)'
+
 
   
                
