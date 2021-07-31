@@ -1,0 +1,30 @@
+.rojo{
+    color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.blanco{
+    color:white;
+}
+
+.celeste{
+    background-color: aqua;
+}
+
+.verdeColor{
+    background-color: green;
+    width: 180px;
+}
+
+.amarillo{
+    background-color:yellow;
+    width:265px;
+}
+
+.rojoColor{
+    background-color: red;
+    width:110px;
+}

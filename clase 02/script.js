@@ -133,33 +133,31 @@ document.querySelector(".chau").innerHTML = "<a href=''>Hola</a>" // Cambia la n
         // document.querySelector("#nacio").innerText=`${tiempo(edad)} `
 
 // 5) Crear una función flecha que solicite al usuario su nombre y su animal favorito (Dar 3 o 4 opciones). Mostrar por HTML un mensaje personalizado saludando a la persona y mostrando una foto de su animal favorito. 
-        // let nombre;
-        // let animal;
+// let nombre=prompt("Ingrese su nombre: ");
+// let animal=prompt("Ingrese su animal favorito dentro de estas cuatro opciones:\nPerro\nGato\nOveja\nPajaro");
+//                 let tipo= (nombre,animal) =>{
+                     
+//                                 switch (animal) {
+//                                         case "perro":
+//                                                 document.querySelector("img").src="perro.jpg"   
+//                                                 break;
+//                                         case "gato":
+//                                                 document.querySelector("img").src="gato.jpg"   
+//                                                 break;
+//                                         case "oveja":
+//                                                 document.querySelector("img").src="oveja.jpg"   
+//                                                 break;
+//                                         case "pajaro":
+//                                                 document.querySelector("img").src="pajaro.jpg"   
+//                                                 break;
+//                                         default:
+//                                                 alert("opcion de animal  no valida")
+//                                                 break;
+//                                 }
+//                                 document.querySelector("h3").innerText = `Hola como estas ${nombre}?, te muestro una foto de tu animal favorito` 
+//                                   } 
         
-        //         let tipo= (nombre,animal) =>{
-        //                 nombre=prompt("Ingrese su nombre: ");
-        //                 animal=prompt("Ingrese su animal favorito dentro de estas cuatro opciones:\nPerro\nGato\nOveja\nPajaro");
-        //                         switch (animal) {
-        //                                 case "perro":
-        //                                         document.querySelector("img").src="perro.jpg"   
-        //                                         break;
-        //                                 case "gato":
-        //                                         document.querySelector("img").src="gato.jpg"   
-        //                                         break;
-        //                                 case "oveja":
-        //                                         document.querySelector("img").src="oveja.jpg"   
-        //                                         break;
-        //                                 case "pajaro":
-        //                                         document.querySelector("img").src="pajaro.jpg"   
-        //                                         break;
-        //                                 default:
-        //                                         alert("opcion de animal  no valida")
-        //                                         break;
-        //                         }
-        //                         document.querySelector("h3").innerText = `Hola como estas ${nombre}?, te muestro una foto de tu animal favorito` 
-        //                           } 
-        
-        //                tipo(nombre,animal)
+//                        tipo(nombre,animal)
                         
 
 // 6) Crear en el HTML un span con un angulo del 0 al 360. Luego calcular su opuesto y mostrarlo en otro span. (Para calcular el opuesto se hace 360 - el ángulo. Por ejemplo: El opuesto de 90 es 270.) El mensaje debería ser:
@@ -171,8 +169,6 @@ document.querySelector(".chau").innerHTML = "<a href=''>Hola</a>" // Cambia la n
         // let ang= a => 360-a;
         // document.querySelector("#opuesto").innerText=`Opuesto: ${ang(angulo)}`
 
-
-    
 
 
 // 7) Generación de mails empresariales. Le solicitamos al usuario su nombre, su apellido, su empresa y si su empresa es Argentina o no. Luego le mostraremos en el HTML un mensaje con su usuario nuevo:
@@ -197,39 +193,39 @@ document.querySelector(".chau").innerHTML = "<a href=''>Hola</a>" // Cambia la n
 // Jueves: Hamburguesas con papas fritas
 // Viernes: Pastel de papa
 
-        let dia=prompt("Que dia de la semana es hoy?");
+        // let dia=prompt("Que dia de la semana es hoy?");
                 
-        let semana= (a) =>{
+        // let semana= (a) =>{
                             
-                       switch (a) {
-                               case "lunes":
-                                       document.querySelector("h3").innerText = 'El menu de hoy es Milanesas con puré.'
-                                       document.querySelector("img").src="milanesaconpure.jpg"   
-                                       break;
-                               case "martes":
-                                       document.querySelector("h3").innerText = 'El menu de hoy es Fideos con salsa'
-                                       document.querySelector("img").src="fideosconsalsa.jpg"   
-                                       break;
-                               case "miercoles":
-                                       document.querySelector("h3").innerText = 'El menu de hoy es Pizza'
-                                       document.querySelector("img").src="pizza.jpeg"   
-                                       break;
-                               case "jueves":
-                                       document.querySelector("h3").innerText = 'El menu de hoy es Hamburguesas con papas fritas'
-                                       document.querySelector("img").src="hamburguesasconpapasfritas.jpg"   
-                                       break;
-                               case "viernes":
-                                       document.querySelector("h3").innerText = 'El menu de hoy es Pastel de papa'
-                                       document.querySelector("img").src="pasteldepapas.jpg"   
-                                               break;
-                               default:
-                                       alert("opcion de dia no valida")
-                                       break;                      
-                                       }
-                            } 
+        //                switch (a) {
+        //                        case "lunes":
+        //                                document.querySelector("h3").innerText = 'El menu de hoy es Milanesas con puré.'
+        //                                document.querySelector("img").src="milanesaconpure.jpg"   
+        //                                break;
+        //                        case "martes":
+        //                                document.querySelector("h3").innerText = 'El menu de hoy es Fideos con salsa'
+        //                                document.querySelector("img").src="fideosconsalsa.jpg"   
+        //                                break;
+        //                        case "miercoles":
+        //                                document.querySelector("h3").innerText = 'El menu de hoy es Pizza'
+        //                                document.querySelector("img").src="pizza.jpeg"   
+        //                                break;
+        //                        case "jueves":
+        //                                document.querySelector("h3").innerText = 'El menu de hoy es Hamburguesas con papas fritas'
+        //                                document.querySelector("img").src="hamburguesasconpapasfritas.jpg"   
+        //                                break;
+        //                        case "viernes":
+        //                                document.querySelector("h3").innerText = 'El menu de hoy es Pastel de papa'
+        //                                document.querySelector("img").src="pasteldepapas.jpg"   
+        //                                        break;
+        //                        default:
+        //                                alert("opcion de dia no valida")
+        //                                break;                      
+        //                                }
+        //                     } 
         
 
-               semana(dia)
+        //        semana(dia)
 
   
 //  b) Ahora además nos piden que coloquemos debajo del menú del día los precios a los platos que se piden a la carta. Realizarlo desde el javascript.
@@ -240,12 +236,12 @@ document.querySelector(".chau").innerHTML = "<a href=''>Hola</a>" // Cambia la n
 // Hamburguesas con papas fritas ($430)
 // Pastel de papa  ($280)
 
-    document.querySelector("h4").innerText = 'Menu a la carta'
-    document.querySelector("#menu1").innerText='Milanesas con puré: $300'
-    document.querySelector("#menu2").innerText='Fideos con salsa $250'
-    document.querySelector("#menu3").innerText='Pizza $400'
-    document.querySelector("#menu4").innerText='Hamburguesas con papas fritas $430'
-    document.querySelector("#menu5").innerText='Pastel de papa  $280'
+//     document.querySelector("h4").innerText = 'Menu a la carta'
+//     document.querySelector("#menu1").innerText='Milanesas con puré: $300'
+//     document.querySelector("#menu2").innerText='Fideos con salsa $250'
+//     document.querySelector("#menu3").innerText='Pizza $400'
+//     document.querySelector("#menu4").innerText='Hamburguesas con papas fritas $430'
+//     document.querySelector("#menu5").innerText='Pastel de papa  $280'
 
 
 
