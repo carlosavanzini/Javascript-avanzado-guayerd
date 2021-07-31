@@ -16,15 +16,17 @@
 
 .verdeColor{
     background-color: green;
+    width: 50px;
     
 }
 
 .amarillo{
     background-color:yellow;
-    
+    width: 50px;
 }
 
 .rojoColor{
     background-color: red;
+    width: 50px;
     
 }

@@ -19,7 +19,7 @@
 
 
 //4) En base al siguiente listado de notas, mostrar en verde los mayores a 7, amarillo los que están entre 4 y 6 y en rojo del tres para abajo.
-   notas = [9,2,7,6,6,4,5,10,3,9.5]
+    notas = [9,2,7,6,6,4,5,10,3,9.5]
 
     let mayores = notas.filter(a=>a>7);
     let amarillos = notas.filter(a=>a>=4 && a<=6);
@@ -27,16 +27,17 @@
 
 
     document.write("<h1>Mayores a 7:</h1>");
-    mayores.forEach(a=>document.write("<li>" + a + "</li>"));
-    document.querySelectorAll("dia").forEach(a=>a.classList.add("verdeColor"));
+    
+    mayores.forEach(a=>document.write("<li class='verdeColor'>" + a + "</li>"));
+    document.querySelectorAll(".verdeColor").forEach(a=>a.classList.add("verdeColor"));
 
     document.write("<h1>Los que estan entre 4 y 6:</h1>");
-    amarillos.forEach(a=>document.write("<li>" + a + "</li>"));
-    document.querySelectorAll("li").forEach(a=>a.classList.add("amarillo"));
+    amarillos.forEach(a=>document.write("<li class='amarillo'>" + a + "</li>"));
+    document.querySelectorAll(".amarillo").forEach(a=>a.classList.add("amarillo"));
 
     document.write("<h1>Menores de 3:</h1>");
-    rojos.forEach(a=>document.write("<li>" + a + "</li>"));
-    document.querySelectorAll("li").forEach(a=>a.classList.add("rojoColor"));
+    rojos.forEach(a=>document.write("<li class='rojoColor'>" + a + "</li>"));
+    document.querySelectorAll(".rojoColor").forEach(a=>a.classList.add("rojoColor"));
 
    
 
