@@ -88,20 +88,20 @@
 
 
     //     document.querySelectorAll("p").forEach(a=>{// el contains es para ver si en el grupo de clases esta la pedida
-    //         if (a.classList.contains("nuevo")!=true) {
+    //         if (!a.classList.contains("nuevo")) {
     //             a.classList.add("antiguo");
     //         }
     //     }
     //     )
 
     //     document.querySelectorAll("p").forEach(a=>{
-    //         if (a.classList.contains("rojo")==true) {
+    //         if (a.classList.contains("rojo")) {
     //             a.classList.add("transparencia");
     //         }
     //     })
 
     //     document.querySelectorAll("p").forEach(a=>{
-    //         if (a.classList.contains("saludo")==true) {
+    //         if (a.classList.contains("saludo")) {
     //             a.classList.remove("saludo");
     //         }else{
     //             a.classList.add("saludo");
@@ -111,7 +111,7 @@
 
     //     for ( i = 0; i <= 3; i++) {
     //         document.querySelectorAll("p").forEach(a=>{
-    //             if(a.classList.contains("ayuda")==true){
+    //             if(a.classList.contains("ayuda")){
     //                 a.classList.remove("ayuda")}})  
             
     //     }
