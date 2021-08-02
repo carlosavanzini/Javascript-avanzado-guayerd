@@ -34,3 +34,21 @@
 .azul{
     color: blue;
 }
+
+/*Css para el ejercicio 7*/
+.nuevo{
+    color:yellowgreen
+}
+.rojo{
+    color:red
+}
+.saludo{
+    font-size: 30px;
+}
+.campo{
+    border-radius: 10px;
+    background-color: salmon;
+}
+.ayuda:hover{
+    background-color: lightblue;
+}
