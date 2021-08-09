@@ -14,10 +14,10 @@
 
 // Crear un botón que al hacerle click, muestre un mensaje en el HTML.
 
-    // document.write("<button id='saludar'>click para para que te muestre un mensaje en el html</button>")
-    // document.write("<p id='forma'></p>")
-    //     let e= document.querySelector("#saludar")
-    //     let saludo=()=>document.querySelector("#forma").innerText="hola a todos"
+    // document.write("<button class='saludar'>click para para que te muestre un mensaje en el html</button>")
+    // document.write("<p class='forma'></p>")
+    //     let e= document.querySelector(".saludar")
+    //     let saludo=()=>document.querySelector(".forma").innerText="hola a todos"
 
     //     e.addEventListener("click",saludo)
 
@@ -33,6 +33,7 @@
 // Crear 5 botones numerados del 1 al 5. Al hacer click en uno y mostrar un mensaje que diga “Haz clickeado el botón $número”, indicando al usuario cuál botón apretó.
 
     // document.write("<button class='uno'>click</button><p><button class='dos'>click</button><p><button class='tres'>click</button><p><button class='cuatro'>click</button><p><button class='cinco'>click</button>")
+
 
     //     let e= document.querySelector(".uno")
     //     let saludo1=()=>document.querySelector(".uno").innerText="Clickleaste en el boton numero 1"
@@ -53,8 +54,6 @@
     //     let f= document.querySelector(".cinco")
     //     let saludo5=()=>document.querySelector(".cinco").innerText="Clickleaste en el boton numero 5"
     //     f.addEventListener("click", saludo5)
-
-
 
 
 // Crear un input y un botón. Dentro del input el usuario debe ingresar un color y al hacre click, el input se pone de ese color y se genera un mensaje indicando el color elegido.
