@@ -1,0 +1,355 @@
+*{
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Estilos de pagina index */
+.mainindex {
+    display: flex;
+    align-self: stretch;
+}
+.mainindex .parrafo {
+  
+    width: 100%;
+    
+}
+
+.mainindex .fotos {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+   
+    width: 100%;
+}
+.parrafo p{
+align-self: stretch;
+text-align: center;
+padding: 40px;
+font-size: 20px;
+}
+
+#foto1 {
+height: 500px;
+width: 700px;
+padding:30px 0px 0px 0px;
+}
+
+#foto2{
+    height: 30%;
+    width: 50%;
+    margin:0px 0px 0px 600px;
+    
+}
+
+
+.aside h1{
+    font-size: 25px;
+    padding: 20px 0px 0px 0px;
+}
+.aside img{
+    height: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.aside p{
+    padding: 50px 0px 0px 0px;
+    font-size: 18px;
+}
+.aside a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top:20px;
+   
+}
+
+li:hover{
+    border-radius: 9px;
+    background-color:#C7C8C4;
+}
+
+main{   
+    width: 100%;
+    background: linear-gradient(to bottom,#f9c743, white); 
+}
+
+img{
+    height:100%;
+    width:100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    align-items: center;
+    height: 60px;
+    background-color:#D1BF91; ;
+    color: white;
+}
+
+li{
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+    background: linear-gradient(to bottom,#A6341B, white);
+    margin-top: 150px;
+    font-size: 20px;  
+    opacity: 80%;
+}
+.footer .logo{
+    width: 200px;
+}
+
+.footer .logocultura{
+    width: 50px;
+    height: 50px;
+    margin-right: 48px;
+}
+
+.footer .nada{
+    width: 80px;
+ 
+}
+
+
+.footer p{
+    color: black;
+    font-size: 20px;
+}
+/*Estilos de pagina pizzerias */
+.container1{
+    display: flex;
+    margin-top: 20px;
+    align-content: space-around;
+    border:1px solid;
+    border-radius: 10px;
+    font-size: 25px;
+    background: linear-gradient(to bottom,#f9c743, white);
+ 
+  
+}
+.container2{
+    display: flex;
+    align-content: space-around;
+    border: 1px solid;
+    margin-top: 10px;
+    font-size: 20px;
+    background: linear-gradient(to bottom,#f9c743, white);
+  
+}
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height:40px;
+  
+  
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+   
+    
+}
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+   
+}
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+  
+    }
+.box5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+   
+    }
+
+.box6{
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    width: 500px;
+   
+    }
+.box7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: 10px;
+     
+    }
+ 
+.box8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+
+    }
+     
+.container2 :hover{
+    background: linear-gradient(to bottom, #A6341B, white);
+    border-radius: 10px;
+}
+
+.container2 p:hover{
+    background: linear-gradient(to bottom,white, white);
+    border-radius: 10px;
+}
+
+.container2 .box7 p:hover{
+-webkit-transform:scale(1.1);transform:scale(1.3);
+width: 100%;
+padding: 20px 0px 20px 10px;}
+
+/*  estilos de pagina de pagina de contacto */
+form{
+    width: 100%;
+    text-align: center;
+ 
+   
+}
+input{
+    padding:20px 255px 20px 10px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
+    background-color: RGBA(255,255,255,0.5);
+    background: linear-gradient(to bottom,#f9c743, white);
+    
+}
+
+textarea{
+    padding:10px 105px 20px 105px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#f9c743, white);
+    background-color: RGBA(255,255,255,0.5);
+  
+}
+button{
+    border-radius: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 50px 20px 50px;
+    background: linear-gradient(to bottom,#f9c743, white);  
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.forma .texto {
+    font-size: 40px;
+    border-radius: 10px;
+  
+}
+
+
+/*  estilos de pagina de formulario */
+.form select {
+    padding:0px 300px 0px 0px;
+    background-color: RGBA(255,255,255,0.5);
+}
+
+
+.form #file{
+    border: 1px solid;
+    padding:20px 165px 20px 10px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
+    background-color: RGBA(255,255,255,0.5);
+}
+.form #porcentaje{
+    padding:0px 0px 0px 0px;   
+    border-radius: 10px;
+    background-color: RGBA(255,255,255,0.5);
+}
+.form  #date{
+    padding:20px 280px 20px 10px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
+    background-color: RGBA(255,255,255,0.5);
+}
+.form p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.form  #sucursales{
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    padding:0px 10px 0px 0px;
+    background-color: RGBA(255,255,255,0.5);
+}
+
+.form  #barrio{
+ 
+    padding:20px 285px 20px 10px;
+    margin: 6px px 15px 0px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#f9c743, white);
+    background-color: RGBA(255,255,255,0.5);
+}
+
+#puntaje{
+    margin: 0px 0px 0px  0px;
+}
+
+.hecho img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.hecho #p:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.3);
+    background-color:white;
+
+}
+
+.git{
+    height: 20px;
+    width: 30px;
+}
