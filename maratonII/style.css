@@ -1,0 +1,42 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.container{
+    text-align: center;
+  
+    
+}
+
+#edad{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+select{
+    padding: 10px 10px 10px 10px;
+}
+
+button{
+    padding: 10px 10px 10px 10px;
+}
+
+body{
+    background-image: url("solar.jpg")
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+p{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 900;
+    font-variant: inherit;
+  
+}
