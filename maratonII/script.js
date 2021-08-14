@@ -23,11 +23,11 @@ let total=0;
                switch (planeta) {
                     case "mercurio":
                        total=((edad*Tierra)/Mercurio).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Mercurio es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Mercurio es de ${total} años`;
                        break;
                     case "venus":
                        total=((edad*Tierra)/Venus).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Venus es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Venus es de ${total} años`;
                        break;
                     case "tierra":
                        total=edad
@@ -35,23 +35,23 @@ let total=0;
                        break;
                     case "marte":
                        total=((edad*Tierra)/Marte).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`la edad en el planeta Marte es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Marte es de ${total} años`;
                        break;
                     case "jupiter":
                        total=((edad*Tierra)/Jupiter).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Jupiter es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Jupiter es de ${total} años`;
                        break;
                     case "saturno":
                        total=((edad*Tierra)/Saturno).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Saturno es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Saturno es de ${total} años`;
                        break;
                     case "urano":
                        total=((edad*Tierra)/Urano).toFixed(2)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Saturno es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Saturno es de ${total} años`;
                        break;
                     case "neptuno":
                        total=((edad*Tierra)/Neptuno).toFixed(3)
-                       document.querySelector("#mostrar").innerText=`La edad en el planeta Saturno es de ${total} años`;
+                       document.querySelector("#mostrar").innerText=`Su edad en el planeta Saturno es de ${total} años`;
                        break;
                
                    default:
