@@ -1,4 +1,4 @@
-const p=document.querySelector("#planeta"); // traemos desde html
+ const p=document.querySelector("#planeta"); // traemos desde html
 
 const planetas= new XMLHttpRequest();// aca lo que estamos usando es AJAX(Asynchronous JavaScript And XML) todo el codigo que trae lo trae en JSON. creamos un objeto de tipo request
 const url='https://swapi.dev/api/planets/1/'; // esta en la direccion de la api
